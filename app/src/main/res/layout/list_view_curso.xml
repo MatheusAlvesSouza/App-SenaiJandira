@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/curso_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Técnico em Informática"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/capa"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/curso_descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        android:layout_marginBottom="10dp"
+        />
+    <LinearLayout
+        android:id="@+id/periodo_inscricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#af0812"
+            android:textStyle="bold"
+            android:text="Término das inscrições : "/>
+
+        <TextView
+            android:id="@+id/curso_termino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#af0812"
+            android:textStyle="bold"
+            android:text="25/05/2018"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

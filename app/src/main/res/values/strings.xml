@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SENAI Jandira</string>
+    <string name="title_activity_cursos">CursosActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="api_key">http://10.0.0.2/APP/web-app/api</string>
+</resources>

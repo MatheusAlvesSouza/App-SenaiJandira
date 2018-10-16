@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... voids) {
 
-            retornoApi = Http.get( API_URL + "/hackathon/api/noticias.php");
+            retornoApi = Http.get( API_URL + "/api/noticias.php");
 
 
             try{

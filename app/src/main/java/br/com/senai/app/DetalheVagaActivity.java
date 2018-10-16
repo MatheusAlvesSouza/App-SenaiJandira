@@ -84,7 +84,7 @@ public class DetalheVagaActivity  extends AppCompatActivity{
         @Override
         protected Void doInBackground(Void... voids) {
 
-            retornoApi = Http.get( API_URL + "/hackathon/api/vaga.php?idVaga=" + idVaga );
+            retornoApi = Http.get( API_URL + "/api/vaga.php?idVaga=" + idVaga );
 
             try{
 
@@ -138,7 +138,7 @@ public class DetalheVagaActivity  extends AppCompatActivity{
         @Override
         protected Void doInBackground(Void... voids) {
 
-            retornoApi = Http.get( API_URL + "/hackathon/api/vagaBeneficios.php?idVaga=" + idVaga );
+            retornoApi = Http.get( API_URL + "/api/vagaBeneficios.php?idVaga=" + idVaga );
 
             try{
 

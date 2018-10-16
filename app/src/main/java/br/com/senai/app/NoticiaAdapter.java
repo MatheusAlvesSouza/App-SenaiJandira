@@ -47,7 +47,7 @@ public class NoticiaAdapter extends ArrayAdapter<Noticia>{
         fim = v.findViewById(R.id.noticia_fim);
 
 
-        Picasso.with(getContext()).load(API_URL +"/hackathon/views/" + noticia.getUrlImagem() ).into(imagem);
+        Picasso.with(getContext()).load(API_URL +"/views/" + noticia.getUrlImagem() ).into(imagem);
 
         titulo.setText( noticia.getTitulo() );
         descricao.setText( noticia.getDescricao() );

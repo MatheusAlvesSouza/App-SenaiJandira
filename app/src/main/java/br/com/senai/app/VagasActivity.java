@@ -92,7 +92,7 @@ public class VagasActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... voids) {
 
-            retornoApi = Http.get( API_URL + "/hackathon/api/vagas.php?buscar=" + palavra);
+            retornoApi = Http.get( API_URL + "/api/vagas.php?buscar=" + palavra);
 
 
             try{
@@ -135,7 +135,7 @@ public class VagasActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... voids) {
 
-            retornoApi = Http.get( API_URL + "/hackathon/api/vagas.php");
+            retornoApi = Http.get( API_URL + "/api/vagas.php");
 
 
             try{

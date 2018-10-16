@@ -3,5 +3,8 @@
     <string name="title_activity_cursos">CursosActivity</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="api_key">http://10.0.0.2/APP/web-app/api</string>
+    <string name="api_key">http://10.0.2.2/APP/web-app</string>
+
+    <string name="fcm_message">FCM Message</string>
+    <string name="default_notification_channel_id" translatable="true">fcm_default_channel</string>
 </resources>

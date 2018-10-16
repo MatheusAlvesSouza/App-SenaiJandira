@@ -243,7 +243,7 @@ public class CursosActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... voids) {
 
-            retornoApi = Http.get( API_URL + "/hackathon/api/cursosCai.php");
+            retornoApi = Http.get( API_URL + "/api/cursosCai.php");
 
             try{
 
@@ -288,7 +288,7 @@ public class CursosActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... voids) {
 
-            retornoApi = Http.get( API_URL + "/hackathon/api/cursosTecnicos.php");
+            retornoApi = Http.get( API_URL + "/api/cursosTecnicos.php");
 
             try{
 
@@ -334,7 +334,7 @@ public class CursosActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... voids) {
 
-            retornoApi = Http.get( API_URL + "/hackathon/api/cursosFic.php");
+            retornoApi = Http.get( API_URL + "/api/cursosFic.php");
 
             try{
 

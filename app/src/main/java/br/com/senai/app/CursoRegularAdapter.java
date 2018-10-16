@@ -58,7 +58,7 @@ public class CursoRegularAdapter extends ArrayAdapter<CursoRegular> {
         }
 
 
-        Picasso.with(getContext()).load(API_URL +"/hackathon/views/" + curso.getUrlImagem() ).into(capa);
+        Picasso.with(getContext()).load(API_URL +"/views/" + curso.getUrlImagem() ).into(capa);
 
         titulo.setText( curso.getNome() );
         descricao.setText( curso.getDescricao() );

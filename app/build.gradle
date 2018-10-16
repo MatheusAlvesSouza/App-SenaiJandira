@@ -23,5 +23,11 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support:design:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.google.firebase:firebase-core:16.0.3'
+    implementation 'com.google.firebase:firebase-iid:17.0.2'
+    implementation 'com.google.firebase:firebase-messaging:17.3.2'
+    implementation 'com.firebase:firebase-jobdispatcher:0.8.5'
     compile files('libs/picasso-2.5.2.jar')
 }
+
+apply plugin: 'com.google.gms.google-services'
